@@ -25,6 +25,6 @@ int main(){
 		calculate();
 		return 0;
 	}catch(...){
-		std::cerr << "Error: maybe you inputted speed of light . if you did you shouldn't have it's a constant\n "
+		std::cerr << "Error: maybe you inputted speed of light . if you did you shouldn't have it's a constant\n If not that, it's an unknown error\n";
 	}
 }
