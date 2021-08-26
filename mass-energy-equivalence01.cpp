@@ -8,7 +8,7 @@ const double Sol{299792458}; //speed of light in a vacuum (m/s)
 double mass; //kg
 double energy;//joules (i think)
 
-double square(double n){
+inline double square(double n){
 	return n*n;
 }
 
