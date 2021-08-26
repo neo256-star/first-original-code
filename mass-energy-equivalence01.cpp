@@ -23,7 +23,8 @@ void calculate(){
 int main(){
 	try{
 		calculate();
+		return 0;
 	}catch(...){
-		cerr << "Error: maybe you inputted speed of light . if you did you shouldn't have it's a constant\n "
+		std::cerr << "Error: maybe you inputted speed of light . if you did you shouldn't have it's a constant\n "
 	}
 }
