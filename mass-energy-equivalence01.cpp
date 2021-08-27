@@ -8,16 +8,16 @@ const double Sol{299792458}; //speed of light in a vacuum (m/s)
 double mass; //kg
 double energy;//joules (i think)
 
-inline double square(double n){
+double sq(double n){
 	return n*n;
 }
 
 void calculate(){
 	while(cin){
 		if(cin == mass)
-			std::cout << mass = energy / square(Sol) << '\n';
+			std::cout << mass = energy / sq(Sol) << '\n';
 		if(cin == energy )
-			std::cout << energy = mass*square(Sol) << '\n';
+			std::cout << energy = mass*sq(Sol) << '\n';
 	}
 }
 int main(){
