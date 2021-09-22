@@ -25,7 +25,7 @@ int main(){
 	try{
 		calculate();
 		return 0;
-	}catch(std::exception e){
+	}catch(std::exception& e){
         std::cerr << e.what() << '\n';
         return 1;
     }
