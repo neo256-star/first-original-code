@@ -1,10 +1,11 @@
 //
 //Created by Nsquared on 26/8/2021 (D/M/Y)
+//Changes on 22/09/2021
 //
 
 #include <iostream>
 
-const double Sol{299792458}; //speed of light in a vacuum (m/s)
+const double Sol{299792458}; //max speed of light in a vacuum (m/s)
 double mass; //kg
 double energy;//joules (i think)
 
